@@ -14,11 +14,12 @@
 
 
   const quizSet =shuffle([
-    {id:"01",q: 'みせて あげましょう\n"Misete agemasyou"', c : ["I'll show you","Look over here","Perfect"]},
-    {id:"02",q: 'わたしが おまもり します\n"Watashi ga omamori shimasu"' , c : ["I'll protect you","I'll teach you","I am a hero"]},
-    {id:"03",q: 'たたかいたく ないのに！\n"Tatakaitaku nainoni!"', c : ["I don't want to fight","I'll never give up","It is over"]},
-    {id:"04",q: 'これは いま ひつよう ないかな\n"Korewa ima hitsuyou naikana"' , c : ["I don't need this now","Umbrella","What's your name?"]},
-    {id:"05",q: 'にげられないよ\n"Nigerarenaiyo"' , c : ["You can't escape","Can you block this?","I'll kill you"]},
+    {id:"01", q: 'どこで あいましょうか？\n"Dokode aimasyouka?"', c : ["Where would you like to meet?","I'm going home!","Important"]},
+    {id:"02", q: 'またあとで あいましょう\n"Mata atode aimasyou"' , c : ["See you later","I will go","Take it easy"]},
+    {id:"03", q: 'もういちど いいですか？\n"Mouichido iidesuka?"', c : ["Pardon?","Where is?","Let's do this"]},
+    {id:"04", q: 'すこし ようすを みましょう\n"Sukoshi yousuwo mimasyou"' , c : ["Let's see how it goes","Are you having fun?","Help me"]},
+    {id:"05", q: 'まちがい ありません\n"Machigai arimasen"' , c : ["There is no doubt","Be strong","Hold your breath"]}
+
 ]);
 
     let currentNum = 0;

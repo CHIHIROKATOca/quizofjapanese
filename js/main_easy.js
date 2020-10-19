@@ -13,11 +13,11 @@
 
 
   const quizSet =shuffle([
-    {id:"01",q: `いくよ！\n"Ikuyo!"` , c : ["Let's go!","Come over here!","Run!"]},
-    {id:"02",q: `こっちだよ！\n"Kocchidayo!"`, c : ["Come here!","Go away!","Let's fight!"]},
-    {id:"03",q: `よわむし。\n"Yowamushi"` , c : ["You are weak","You are strong","You are great"]},
-    {id:"04",q: `さよなら \n"Sayonara"`, c : ["Good bye","Good day","Good boy"]},
-    {id:"05",q: `ごめんなさい\n"Gomennasai"` , c : ["I am sorry","I am happy","I am strong"]},
+    {id:"01",q: `いらっしゃいませ\n"Irassyai mase"` , c : ["Welcome","Come over here","Let's go"]},
+    {id:"02",q: `おげんきですか？\n"Ogenki desuka?"`, c : ["How are you?","Go away!","Shall we ~?"]},
+    {id:"03",q: `ごめんなさい\n"Gomennasai"` , c : ["I am sorry","I am happy","I am strong"]},
+    {id:"04",q: `だいじょうぶです \n"Daijyoubu desu"`, c : ["I am okay","Feel bad","See you later"]},
+    {id:"05",q: `いみがわかりません\n"Imiga wakarimasen"` , c : ["I don't know the meaning","I am happy","I will go to there"]},
 
 ]);
   let currentNum = 0;

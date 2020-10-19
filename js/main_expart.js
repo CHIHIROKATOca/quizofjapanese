@@ -13,11 +13,11 @@
 
 
   const quizSet =shuffle([
-    {id:"01", q: 'あくむの なかで おどろう よ\n"Akumuno nakade odorouyo"', c : ["Let's dance in the nightmare","I will melt","You can't escape"]},
-    {id:"02", q: 'かみの さばき だ！\n"Kamino sabakida!"' , c : ["God's judgment","This is my revenge","Tam tam's super attack"]},
-    {id:"03", q: 'これでも くらいな!!\n"Koredemo kuraina!!"', c : ["Take this!!","High damage!!","Dragon attack!!"]},
-    {id:"04", q: 'おめえ なんて これで じゅうぶん だ！\n"Omee nante korede jyubunda!"' , c : ["This is enough for you.","This is the end!","The mad men crusher!!"]},
-    {id:"05", q: 'どこを みて いるの です？\n"Dokowo mite iruno desu?"' , c : ["Where are you looking at?","above the sky","Can you see it?"]},
+    {id:"01", q: 'あなたが だいすき です\n"Anataga daisuki desu"', c : ["I like you so much","I will be back","You can go"]},
+    {id:"02", q: 'おめでとうございます\n"Omedetou gozaimasu"' , c : ["Conguratulations","Present for you","This is my mom"]},
+    {id:"03", q: 'どうぞ たのしんで ください\n"Douzo tanoshinde kudasai"', c : ["Have fun!","Let's go!","See you!"]},
+    {id:"04", q: 'りょうきんは いくらですか？\n"Ryokin wa ikura desuka?"' , c : ["How much is it?","This is the end!","Do you like it?"]},
+    {id:"05", q: 'こんにちは。きょうはいいてんきですね\n"konnichiwa. kyou wa ii tenki desune"' , c : ["Hello. It's a good weather today","Be strong","Hold your breath"]}
 ]);
 
 

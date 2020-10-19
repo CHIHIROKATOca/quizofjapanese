@@ -13,11 +13,11 @@
 
 
    const quizSet =shuffle([
-    {id:"01", q: 'たのしかった ぜ\n"Tanoshikatta ze"', c : ["I had fun","I'm going home!","Important"]},
-    {id:"02", q: 'させる かよ！\n"Saseru kayo!"' , c : ["I won't let you do it","I will attack","Pick up your sword"]},
-    {id:"03", q: 'まだ おわらん\n"Mada owaran"', c : ["It's not over yet","I am the winner","Let's do this"]},
-    {id:"04", q: 'うごか ないで\n"Ugoka naide"' , c : ["Don't move","Are you having fun?","Help me"]},
-    {id:"05", q: 'あぶない ですよ\n"Abunai desuyo"' , c : ["Be careful","Be strong","Hold your breath"]}
+    {id:"01",q: 'おあいできて うれしいです\n"Oaidekite ureshii desu"', c : ["Nice to meet you","Look over here","Perfect"]},
+    {id:"02",q: 'これ、いくらですか？\n"kore ikura desuka?"' , c : ["How much is it?","I'll teach you","I am a hero"]},
+    {id:"03",q: 'どういたしまして\n"Dou itashi mashite"', c : ["You're welcome","I'll never give up","It is over"]},
+    {id:"04",q: 'えいごは はなせますか？\n"Eigo wa hanase masuka?"' , c : ["Can you speak English?","Can you speak Spanish?","What's your name?"]},
+    {id:"05",q: 'ちょうしは どうですか？\n"Choushi wa dou desuka?"' , c : ["How's it going?","How long?","How much?"]},
 ]);
 let currentNum = 0;
 let isAnswered;
