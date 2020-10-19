@@ -1,16 +1,16 @@
 "use strict";
 
 {
-    const question = document.getElementById("question");
-    const choices = document.getElementById("choices");
-    const btn = document.getElementById("btn");
-    const result = document.getElementById("result");
-    const scorelabel = document.querySelector("#result-score");
-    const count = document.getElementById("count");
-    var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Kuroko%20Omigoto%20voices.mp3");
-    var incorrect = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/incorrect2.mp3");
-    var music = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Musiclongerversionloop.mp3");
-    var bgmBtn = document.getElementById('bgm');
+  const question = document.getElementById("question");
+  const choices = document.getElementById("choices");
+  const btn = document.getElementById("btn");
+  const result = document.getElementById("result");
+  const scorelabel = document.querySelector("#result-score");
+  const anime = document.getElementById("anime");
+  const count = document.getElementById("count");
+  var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Kuroko%20Omigoto%20voices.mp3");
+  var incorrect = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/incorrect2.mp3");
+
 
 
   // window.onload = function(){
@@ -19,13 +19,14 @@
   //   audio.pause(); audios.currentTime = 0;
   // }
 
-    const quizSet =shuffle([
-      {id:"01", q: `こんばんは!\n"Konbanwa"`, c : ["Good evening","Good morning","How are you"]},
+  const quizSet =shuffle([
+    {id:"01", q: `こんばんは!\n"Konbanwa"`, c : ["Good evening","Good morning","How are you"]},
       {id:"02",q: 'ありがとう\n"Arigatou"' , c : ["Thank you","Help me","Come on"]},
       {id:"03",q: 'おはようございます\n"Ohayo gozaimasu"', c : ["Good morning","Hurry up","What time is it?"]},
       {id:"04",q: 'おやすみなさい\n"Oyasumi nasai"' , c : ["Good night","Start","Happy"]},
       {id:"05",q: 'おなまえは？\n"Onamae wa?"' , c : ["What's your name?","How much?","How long?"]},
-  ]);
+]);
+
       let currentNum = 0;
       let isAnswered;
       let score = 0;
