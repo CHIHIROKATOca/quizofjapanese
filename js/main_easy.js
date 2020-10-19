@@ -133,36 +133,36 @@
         perfectText.textContent = "Perfect!!";
 
         var tmp = document.getElementsByClassName("perfect-bg") ;
-        var val="perfect";
-        tmp[0].setAttribute("id",val);
+      var val="perfect";
+      tmp[0].setAttribute("id",val);
 
-        var perfectBg = document.getElementById("perfect-animation");
-        perfectBg.style.display;
-        perfectBg.style.display = "block";
+      var perfectBg = document.getElementById("perfect-animation");
+      perfectBg.style.display;
+      perfectBg.style.display = "block";
 
-        var perfectBgColor = document.querySelector(".perfect-body-bg");
-        perfectBgColor.style.backgroundColor;
-        perfectBgColor.style.backgroundColor = "#ffda48";
+      var perfectBgColor = document.querySelector(".perfect-body-bg");
+      perfectBgColor.style.backgroundColor;
+      perfectBgColor.style.backgroundColor = "#ffda48";
 
-        var normalBg = document.getElementById("normal-animation");
-        var normalBgT = document.getElementById("normal-animation-tablet");
-        var normalBgM = document.getElementById("normal-animation-mobile");
-        var normalBgMY = document.getElementById("normal-animation-mobile-yoko");
-        normalBg.style.display;
-        normalBgT.style.display;
-        normalBgM.style.display;
-        normalBgMY.style.display;
-        normalBg.style.display = "none";
-        normalBgT.style.display = "none";
-        normalBgM.style.display = "none";
-        normalBgMY.style.display = "none";
+      var normalBg = document.getElementById("normal-animation");
+      var normalBgT = document.getElementById("normal-animation-tablet");
+      var normalBgM = document.getElementById("normal-animation-mobile");
+      var normalBgMY = document.getElementById("normal-animation-mobile-yoko");
+      normalBg.style.display;
+      normalBgT.style.display;
+      normalBgM.style.display;
+      normalBgMY.style.display;
+      normalBg.style.display = "none";
+      normalBgT.style.display = "none";
+      normalBgM.style.display = "none";
+      normalBgMY.style.display = "none";
 
 
-        // goNext.innerText="Go Next Level";
-        // goNext.href = "index_hard.html";
-      }else{
-        return;
-      }
-
-    })
+      // goNext.innerText="Go Next Level";
+      // goNext.href = "index_hard.html";
+    }else{
+      return;
     }
+
+  })
+  }
