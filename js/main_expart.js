@@ -7,9 +7,9 @@
   const result = document.getElementById("result");
   const scorelabel = document.querySelector("#result-score");
   const count = document.getElementById("count");
-  var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Kuroko%20Omigoto%20voices.mp3");
+  var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/quizofjapanese/master/audio/correct.mp3");
   var incorrect = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/incorrect2.mp3");
-  var endVoice = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Kuroko%20game%20over%20voices.mp3");
+
 
 
   const quizSet =shuffle([
@@ -129,8 +129,6 @@
     }
 
     if(score === quizSet.length){
-
-      endVoice.play();
 
       const perfectText = document.getElementById("clearText");
       perfectText.textContent = "All Clear! Congratulations!";

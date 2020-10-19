@@ -8,7 +8,7 @@
   const scorelabel = document.querySelector("#result-score");
   const anime = document.getElementById("anime");
   const count = document.getElementById("count");
-  var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/Kuroko%20Omigoto%20voices.mp3");
+  var correct = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/quizofjapanese/master/audio/correct.mp3");
   var incorrect = new Audio("https://raw.githubusercontent.com/CHIHIROKATOca/samuraiquiz/master/audio/incorrect2.mp3");
 
 
