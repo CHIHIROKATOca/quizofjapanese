@@ -13,12 +13,11 @@
 
 
   const quizSet =shuffle([
-    {id:"01",q: `いらっしゃいませ\n"Irassyai mase"` , c : ["Welcome","Come over here","Let's go"]},
-    {id:"02",q: `おげんきですか？\n"Ogenki desuka?"`, c : ["How are you?","Go away!","Shall we ~?"]},
-    {id:"03",q: `ごめんなさい\n"Gomennasai"` , c : ["I am sorry","I am happy","I am strong"]},
-    {id:"04",q: `だいじょうぶです \n"Daijyoubu desu"`, c : ["I am okay","Feel bad","See you later"]},
-    {id:"05",q: `いみがわかりません\n"Imiga wakarimasen"` , c : ["I don't know the meaning","I am happy","I will go to there"]},
-
+    {id:"01", q: `いらっしゃいませ\n"Irassyai mase"` , c : ["Welcome","Come over here","Let's go"]},
+    {id:"02", q: `おげんきですか？\n"Ogenki desuka?"`, c : ["How are you?","Go away!","Shall we ~?"]},
+    {id:"03", q: `ごめんなさい\n"Gomennasai"` , c : ["I am sorry","I am happy","I am strong"]},
+    {id:"04", q: `だいじょうぶです \n"Daijyoubu desu"`, c : ["I am okay","Feel bad","See you later"]},
+    {id:"05", q: `いみがわかりません\n"Imiga wakarimasen"` , c : ["I don't know the meaning","I am happy","I will go to there"]},
 ]);
   let currentNum = 0;
   let isAnswered;
