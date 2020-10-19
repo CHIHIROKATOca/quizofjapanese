@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz of Japanese</title>
+
+    <!-- <audio src="audio/Musiclongerversionloop.mp3" autoplay loop></audio> -->
+    <link rel="stylesheet" href="css/styles.css">
+        <!-- Jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <!-- google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <!-- google icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/ihf3pzv.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script src="js/audio.js"></script>
+</head>
+
+<body class="perfect-body-bg">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_0yjukvo9.json"  background="transparent"  speed="1"loop autoplay id="perfect-animation"></lottie-player>
+    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_dej5wgkf.json"  background="transparent"  speed="1"loop autoplay id="perfect-animation-tablet"></lottie-player>
+    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_dej5wgkf.json"  background="transparent"  speed="1"loop autoplay id="perfect-animation-mobile"></lottie-player>
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ytoepfv6.json"  background="transparent"  speed="1"loop autoplay id="perfect-animation-mobile-yoko"></lottie-player>
+
+    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ore2dwwi.json"  background="transparent"  speed="1"loop autoplay id="normal-animation"></lottie-player>
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_jbullavp.json"  background="transparent"  speed="1"loop autoplay id="normal-animation-tablet"></lottie-player>
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_jbullavp.json"  background="transparent"  speed="1"loop autoplay id="normal-animation-mobile"></lottie-player>
+    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_qg4rppve.json"  background="transparent"  speed="1"loop autoplay id="normal-animation-mobile-yoko"></lottie-player>
+
+
+    <nav class="navbar navbar-light bg-light nav-select">
+        <a class="navbar-brand backtoselect" href="index.html"><span class="material-icons">
+            chevron_left
+            </span>Select stage</a>
+      </nav>
+      <div class="playBgmSet">
+        <p>BGM</p>
+        <button onclick="play();" id="playBgm"><span class="material-icons">
+            play_circle_filled
+            </span></button>
+        <button onclick="pause();" id="playBgm"><span class="material-icons">
+            pause_circle_filled
+            </span></button>
+        </div>
+    <div class="container perfect-bg" id="container">
+        <div class="container-title easy" id="container-title">
+            <p>Level : <b>easy</b></p>
+        </div>
+            <a id="playBtn"><i class="fas fa-volume-up"></i></a>
+            <p id="question" class="question">What is a?</p>
+        <p class="desc">What does it mean?</p>
+
+        <ul id="choices" class="choices">
+            <!-- <li>A01</li>
+            <li>A02</li>
+            <li>A03</li> -->
+        </ul>
+        <div id="btn" class="disabled">Next</div>
+        <p id="count" class="count">count?</p>
+
+    </div>
+    <div class="bg-brack">
+        <section id="result" class="hidden">
+            <div class="result-title"><p>Level : <b>Easy</b></p></div>
+            <p id="perfectText"></p>
+            <p id="result-score"></p>
+            <div class="result-next-btn">
+                <a type="button" href="index_easy.html" class="replay-btn">Replay?</a>
+                <a type="button" href="index_normal.html" class="next-btn">Next?</a>
+            </div>
+        </section>
+    </div>
+    <audio src="audio/easyIkyuo.mp3" data-key="01"></audio>
+    <audio src="audio/easykodchidayo.mp3" data-key="02"></audio>
+    <audio src="audio/easyyowamuchi.mp3" data-key="03"></audio>
+    <audio src="audio/easysayonara.mp3" data-key="04"></audio>
+    <audio src="audio/easygommenasi.mp3" data-key="05"></audio>
+    <script src="js/main_easy.js" defer></script>
+</body>
+</html>
