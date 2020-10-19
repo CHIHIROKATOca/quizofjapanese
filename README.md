@@ -1,4 +1,4 @@
-# assignment1005 "Quiz of Samurai"
+# "Quiz of Japanese"
 
 ## Description
 This is a game project using java script.
@@ -6,4 +6,4 @@ This is a game project using java script.
 
 
 ## Demo
-https://chihirokatoca.github.io/samuraiquiz/
+https://chihirokatoca.github.io/quizofjapanese/
